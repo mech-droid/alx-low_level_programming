@@ -1,4 +1,4 @@
-#include "list.h"
+#include "lists.h"
 #include <stdio.h>
 
 
@@ -12,4 +12,5 @@ size_t print_list(const list_t *h)
 		printf("(%s, %d)", h->str, h->len);
 		h = h->next;
 	}
+	return(0);
 }
